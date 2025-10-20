@@ -48,83 +48,26 @@
 					<p style="text-align: left;">
 						
 
-						In the summer of 2023, I had an amazing volunteer internship 
-						working with Prof. Ioan Raicu and PhD student Lan Nguyen 
-						in the <a href="http://datasys.cs.iit.edu">DataSys Laboratory</a> 
-						at <a href="https://www.iit.edu/computer-science">Illinois Institute of Technology</a>. 
-						I spent the summer learning about computer science, data science, Python programming, blockchain technologies,
-						and how to access and manage large datasets. In 2024, I learned about Artificial Intelligence
-						through a class at Oakton College. In the summer of 2025, I had the opportunity
-						of working with world-class researchers (Dr. Kyle Chard and Daniel Grzenda) 
-						at the University of Chicago on diving into neural networks in order to predict coastal water levels. 
+						In the summer of 2023, I had an incredible volunteer internship 
+working with <a href="http://www.cs.iit.edu/~iraicu/">Prof. Ioan Raicu</a> and PhD student Lan Nguyen 
+in the DataSys Laboratory at the <a href="https://www.iit.edu/computer-science">Illinois Institute of Technology</a>. 
+During this experience, I explored computer science, data science, Python programming, blockchain technologies, 
+and techniques for managing large-scale datasets. 
+
+In 2024, I deepened my understanding of Artificial Intelligence 
+through a course at <a href="https://www.oakton.edu/academics/list-of-programs/ai-machine-learning-certificate.php">Oakton College</a>, 
+where I gained hands-on experience with machine learning concepts and their real-world applications. 
+
+In the summer of 2025, I had the privilege of working with world-class researchers 
+(<a href="https://cs.uchicago.edu/people/kyle-chard/">Dr. Kyle Chard</a> and Daniel Grzenda) at 
+<a href="https://labs.globus.org">Globus Labs</a> within the 
+<a href="https://computerscience.uchicago.edu">University of Chicago</a>, 
+where I focused on applying neural networks to predict coastal water levels.
 						</p>	
 						
 						<br>
-						
-						<h3>CRYPTEX: fine-grained CRYPTocurrency datasets EXploration</h3> 
-<div style="float: right;"></div>
-<div style="float: right; clear: right"><img src="images/btc-monthly-graph.png" alt="BTCUSD Monthly Data" align=right width=500 border=20></div>
-						
-						<p>	
-						I designed and developed a new project called CRYPTEX: fine-grained CRYPTocurrency datasets EXploration.
-						The CRYPTEX project aimed to experiment with cryptocurrency time-series data, particularly candlestick data from exchanges like Binance. 
-						However, obtaining high-quality, one-second granularity data from exchange APIs and even online websites proved difficult, 
-						unintuitive, impossible, or expensive. This challenge inspired me to create an efficient Python-based framework that extracts 
-						the transaction history for 153 cryptocurrency trading pairs from Binance.us since September 2019. 
-						This data was then cleaned and summarized into a variety of sub-datasets ranging from yearly to one-second granularity candlesticks. 
-						To enable ease of data-sharing, I published a sample (<a href="https://www.kaggle.com/datasets/iraicu/fine-grained-bitcoin-historical-dataset-2019-2023">4-year BTCUSDT trading pair data</a>) 
-						dataset on Kaggle and the entirety of the 
-						datesets in CSV formatted files (261GB) on a publicly accessible <a href="http://crypto.cs.iit.edu/datasets/">web server</a>. 
-						The <a href="https://github.com/lucasraicu/CRYPTEX">CRYPTEX</a> code is open-source and accessible on GitHub.
-						I presented this project at the GCASR'24 as a <a href="CRYPTEX-GCASR24-poster.pdf">poster</a> in May 2024; 
-						in addition to the poster, I wrote a detailed <a href="CRYPTEX-GCASR24-paper.pdf">writeup</a> of my project. 						
-						</p>
-						<br>
 
-						<h3>Slow Turtle BackTesting with CRYPTEX</h3> 
-
-<div style="float: right;"></div>
-<div style="float: right; clear: right"><img src="images/backtesting.jpeg" alt="Backtesting" align=right width=500 border=20></div>
-
-						<p>	
-						I continued this project in the last year by investigating the original premise that 
-						cryptocurrency time-series data can be used to build models to automate trading. 
-						I explored various backtesting algorithms and implemented the in Python. 
-						I simulated trading strategies against historical data to evaluate their performance and identify potential opportunities and risks. 
-						I incorporated several indicators, such as moving averages and thresholding to determine winning performance and risks. 
-						I focused on optimizing hyperparameters within these models to enhance predictive accuracy and profitability, 
-						and used concurrency to speedup backtesting on multi-core systems.
-						Here is an example of a backtesting simulation, after a hyperparameter search of 10K simulations were done. 
-						We used the 1W BTCUSD candlestick data from 09/2019 to 05/2024 for evaluation.
-						The backtest stated with $1K worth of bitcoins, and ended with about $28K after 5 years.
-										
-						</p>
-
-						<br>
-						
-						<h3>Personal Smart Heater</h3> 
-
-<div style="float: right;"></div>
-<div style="float: right; clear: right"><img src="images/SmartHeater.jpeg" alt="SmartHeater" align=right width=500 border=20></div>
-
-
-						<p>	
-						Another related project I explored was the design and implementation of a personal smart heater. 
-						The CryptoHeat project combines remote temperature monitoring and cryptocurrency mining to create a cost-effective 
-						and efficient heating solution. It features a Raspberry Pi 4 with an STS35 temperature sensor and three GPU-powered 
-						appliances for generating heat by running computational tasks (blockchain mining). The system operates within a power 
-						range of 200W to 1200W, producing 682 BTU/hr to 4092 BTU/hr of heat while maintaining noise levels between 36 dBA and 42 dBA. 
-						The blockchain and GPUs were chosen for minimum power consumption in order to minimize noise levels so that these appliances 
-						could be used within a personal space (e.g. bedroom or office). With an average cost of $0.18/hour (using fixed electricity 
-						cost of $0.15/kWh) to run this smart heater, two thirds of this cost can be recovered by the mining income generated (~$0.12/hour). 
-						It is possible that without optimizing for low noise, that this smart heater could generate more income than it uses in electricity. 
-						Furthermore, the cost of electricity could be reduced by switching to hourly billing, and having the smart heater overheat during 
-						low cost periods (e.g. night) and underheat during high cost periods (e.g. business hours).  
-										
-						</p>
-						<br>
-						
-												<h3>TidalMark: LSTM-Driven Forecasts for Next-Gen Water Level Monitoring</h3> 
+												<h3>TidalMark: LSTM-Driven Forecasts for Next-Gen Water Level Monitoring [2025 - Present]</h3> 
 
 <!--<div style="float: right;"></div>
 <div style="float: right; clear: right"><img src="images/SmartHeater.jpeg" alt="SmartHeater" align=right width=500 border=20></div>
@@ -132,16 +75,21 @@
 
 
 						<p>	
-						In the summer of 2025, I had the opportunity
-						of working with world-class researchers (Dr. Kyle Chard and Daniel Grzenda) 
-						at the University of Chicago on diving into neural networks in order to predict coastal water levels. 
-						Accurate water-level forecasting is critical for tracking climate change and mitigating coastal and riverine flooding. 
-						Historically, measurements have relied on sensor networks maintained by National Oceanographic and Atmospheric Administration (NOAA)
-						and the United States Geological Survey (USGS), a high-fidelity dataset spanning multiple years, 100s of stations, and over 80GB of raw data (sampled every 6-minutes). 
-						TidalMark harnesses Long Short-Term Memory networks to push beyond traditional methods, fusing temporal patterns and spatial 
-						relationships within these time-series data. By benchmarking a suite of neural-network architectures, 
-						we demonstrate significant gains in prediction accuracy paving the way for next-generation water-level 
-						monitoring and early flood-warning systems. 
+						In the summer of 2025, I had the privilege of working with world-class researchers 
+(<a href="https://cs.uchicago.edu/people/kyle-chard/">Dr. Kyle Chard</a> and Daniel Grzenda) 
+at the <a href="https://computerscience.uchicago.edu">University of Chicago</a> on the development of 
+neural network models to predict coastal water levels. 
+Accurate water-level forecasting is vital for understanding the effects of climate change and for mitigating 
+the impacts of coastal and riverine flooding. 
+Historically, such measurements have relied on sensor networks maintained by the 
+National Oceanic and Atmospheric Administration (NOAA) and the United States Geological Survey (USGS), 
+producing a rich, high-fidelity dataset spanning multiple years, hundreds of stations, and more than 80GB of raw data 
+(sampled every six minutes). 
+
+Our project, <strong>TidalMark</strong>, leverages Long Short-Term Memory (LSTM) networks to move beyond traditional 
+forecasting methods by capturing both temporal dynamics and spatial dependencies within these complex time-series datasets. 
+By benchmarking multiple neural network architectures, we demonstrated substantial improvements in prediction accuracy, 
+paving the way for next-generation water-level monitoring and early flood-warning systems. 
 										
 						</p>
 						
@@ -156,7 +104,7 @@
 
 					<h3>Publications</h3>
 						<ol style="margin-top: 0;">
-		<li>Lucas Raicu, Daniel Grzenda, Ian Foster, Kyle Chard. “TidalMark: LSTM-Driven Forecasts for Next-Gen Water Level Monitoring”, under review at IEEE/ACM SuperComputing/SC 2025</li>
+		<li>Lucas Raicu, Daniel Grzenda, Ian Foster, Kyle Chard. “<a href="TidalMark-paper-SC25.pdf">TidalMark: LSTM-Driven Forecasts for Next-Gen Water Level Monitoring</a>”, IEEE/ACM SuperComputing/SC 2025 [<a href="TidalMark-poster-SC25.pdf">poster</a>]</li>
 	  <li>Lucas Raicu, Ioan Raicu. "CryptoHeat: A Smart, Cost-Efficient Personal Heater Powered by Blockchain Mining", Greater Chicago Area Systems Research Workshop (GCASR) 2025 [<a href="CryptoHeat-GCASR25-poster.pdf">poster</a>] </li>
 	  <li>Lucas Raicu, Stefan Donisa, Lucas Ciobanu, Lan Nguyen, Ioan Raicu. "CRYPTEX: fine-grained CRYPTocurrency datasets EXploration", Greater Chicago Area Systems Research Workshop (GCASR) 2024 [<a href="CRYPTEX-GCASR24-poster.pdf">poster</a>] </li>
 	</ol>
@@ -175,6 +123,77 @@
 		<li><a href="crypto-dataset-july-2023.pdf">“Improving Crypto Currency Analysis through Fine-Grained Historical Datasets”</a>, Illinois Institute of Technology, July 21st, 2023</li>
 	</ol>
 			
+						<br>
+
+						<h3>Personal Smart Heater [2023 - 2025]</h3> 
+
+<div style="float: right;"></div>
+<div style="float: right; clear: right"><img src="images/SmartHeater.jpeg" alt="SmartHeater" align=right width=500 border=20></div>
+
+
+						<p>	
+						Another related project I developed was the design and implementation of a personal smart heater called <strong>CryptoHeat</strong>. 
+The project combines remote temperature monitoring with cryptocurrency mining to create a cost-effective and energy-efficient heating solution. 
+CryptoHeat is powered by a Raspberry Pi 4 connected to an STS35 temperature sensor and three GPU-equipped appliances that generate heat through computational workloads (blockchain mining). 
+The system operates within a power range of 200W to 1200W, producing between 682 and 4092 BTU/hr of heat while maintaining noise levels between 36 dBA and 42 dBA. 
+
+The GPUs and blockchain configuration were carefully selected to minimize power consumption and acoustic output, allowing the system to operate comfortably in personal spaces such as bedrooms or offices. 
+With an average operating cost of approximately $0.18 per hour (based on an electricity rate of $0.15/kWh), about two-thirds of this expense can be offset by the income generated from mining (~$0.12 per hour). 
+If noise reduction were not a limiting factor, the system could potentially achieve net-positive earnings by increasing computational throughput. 
+Additionally, the overall cost of operation could be further reduced by adopting hourly electricity pricing and scheduling heating activity — for example, overheating during low-cost nighttime periods and underheating during high-cost daytime hours. 
+
+Through CryptoHeat, I explored how distributed computing and blockchain technologies can be repurposed for sustainable energy use — transforming computational waste heat into a practical and eco-conscious resource.
+										
+						</p>						
+						<br>
+						<h3>Slow Turtle BackTesting with CRYPTEX [2024 - 2025]</h3> 
+
+<div style="float: right;"></div>
+<div style="float: right; clear: right"><img src="images/backtesting.jpeg" alt="Backtesting" align=right width=500 border=20></div>
+
+						<p>	
+						I continued this project over the past year by investigating its original premise — that cryptocurrency time-series data can be leveraged 
+to build models capable of automating trading decisions. I explored a range of backtesting algorithms and implemented them in Python, 
+simulating trading strategies against historical data to evaluate their performance and identify potential opportunities and risks. 
+To improve model accuracy, I incorporated several technical indicators, including moving averages and threshold-based triggers, 
+to assess profitability and mitigate losses. 
+
+I also focused on optimizing key hyperparameters to enhance predictive accuracy and overall profitability, 
+while leveraging concurrency to accelerate large-scale backtesting on multi-core systems. 
+Below is an example of one such backtesting simulation conducted after a hyperparameter search across 10,000 configurations. 
+The evaluation used one-week BTC/USD candlestick data from September 2019 through May 2024. 
+The backtest began with an initial investment of $1,000 worth of Bitcoin and ended with approximately $28,000 after five years.
+										
+						</p>
+<br>
+						<h3>CRYPTEX: fine-grained CRYPTocurrency datasets EXploration [2023 - 2024]</h3> 
+<div style="float: right;"></div>
+<div style="float: right; clear: right"><img src="images/btc-monthly-graph.png" alt="BTCUSD Monthly Data" align=right width=500 border=20></div>
+						
+						<p>	
+						I designed and developed a research project called <strong>CRYPTEX</strong>: <em>fine-grained CRYPTocurrency datasets EXploration</em>. 
+The CRYPTEX project focuses on analyzing cryptocurrency time-series data, particularly candlestick data from exchanges like Binance. 
+However, obtaining high-quality, one-second granularity data from exchange APIs and online sources proved to be difficult, unintuitive, 
+and often either unavailable or prohibitively expensive. This challenge motivated me to create an efficient Python-based framework 
+capable of extracting the complete transaction history for 153 cryptocurrency trading pairs from Binance.us dating back to September 2019. 
+
+The collected data was cleaned, organized, and summarized into a variety of sub-datasets with granularities ranging from yearly aggregates 
+to one-second candlestick data. To make the data accessible to others, I published a sample 
+(<a href="https://www.kaggle.com/datasets/iraicu/fine-grained-bitcoin-historical-dataset-2019-2023">4-year BTCUSDT trading pair dataset</a>) 
+on Kaggle and made the complete collection—over 350GB of CSV-formatted files—available on a publicly accessible 
+<a href="http://mystic.cs.iit.edu/datasets/">web server</a>. 
+
+The <a href="https://github.com/lucasraicu/CRYPTEX">CRYPTEX</a> source code is open source and available on GitHub. 
+I presented this project at <strong>GCASR 2024</strong> as a <a href="CRYPTEX-GCASR24-poster.pdf">poster</a> in May 2024, 
+accompanied by a detailed <a href="CRYPTEX-GCASR24-paper.pdf">writeup</a> describing the project’s design, implementation, and findings.
+
+The CRYPTEX dataset has since inspired a number of follow-up research projects conducted at 
+<a href="https://www.iit.edu/computer-science">IIT</a> and beyond. 
+One notable example is <strong>CRYPTEX-LLM</strong>, an advanced framework that explores large language models in the context of cryptocurrency data, 
+available at <a href="https://cryptex-llm.vercel.app">https://cryptex-llm.vercel.app</a>.
+						</p>
+						
+
 
 
 
